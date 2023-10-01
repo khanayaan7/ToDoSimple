@@ -1,0 +1,121 @@
+
+body{
+ 
+}
+#extraspace{
+  height: 2rem;
+}
+.switch {
+    position: relative;
+    top: 1rem;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #000000;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #ffffff;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+  .dark-mode{
+    text-align: right;
+  }
+  .date-time{
+    text-align: left;
+  }
+  .todohead{
+    text-align: center;
+  }
+.heading{
+    font-size: 2.5rem;
+    height: 15rem;
+}
+.calimg{
+    padding-bottom: 10px;
+}
+.vert{
+  margin-right: 2rem;
+}
+.textshadow {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.test{
+  color:blue;
+}
+.workswitch{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.switchbox{
+}
+.pw1{
+  margin-top: 7px;
+  padding-right: 10px;
+}
+.pw2{
+  margin-top: 7px;
+  padding-left: 10px;
+  
+}
+.headcolor{
+  background-color:#E5C3A6;
+  color: rgb(85, 55, 0)
+}
+.restcolor{
+  background-color: #7C81AD;
+  color: #222755;
+}
